@@ -1,0 +1,25 @@
+
+
+.App {
+
+    --header_height: 60px;
+    padding-top: 131px;
+}
+
+.hw {
+
+    border: 1px solid #D9D9D9;
+    width: 100vw;
+    padding: 24px 0;
+
+}
+
+.hwTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
