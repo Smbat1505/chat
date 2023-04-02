@@ -1,5 +1,4 @@
 
-
 .App {
 
     --header_height: 60px;
@@ -14,12 +13,17 @@
 
 }
 
+.hw > div {
+    padding: 10px 70px;
+}
+
 .hwTitle {
+    padding: 10px 70px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
+
     color: #000000;
 }
