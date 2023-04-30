@@ -1,25 +1,125 @@
 .sidebar {
+    /*display: none;*/
+    visibility: hidden;
+    position: fixed;
+    width: 317px;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    z-index: 100;
+
+    animation-name: close;
+    animation-duration: 0.7s;
+
+    transition: all 0.7s ease 0s;
+    background: #FFFFFF;
+    box-shadow: 0 10px 40px rgba(29, 33, 38, 0.13), 0 1px 2px rgba(29, 33, 38, 0.1);
 }
 
 .sidebar.open {
+    /*display: block;*/
+    visibility: visible;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    animation-name: opens;
+    animation-duration: 0.5s;
+
+
 }
 
 .background {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    /*transition: opacity .7s ease 0s;*/
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+
+
+
+    /*transition: width 0.7s ease 0s;*/
 }
 
+
 .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 60px 70px;
+    width: 317px;
+    height: 100vh;
+    background: #ffffff;
+    /*animation-name: close;*/
+    /*animation-duration: 0.5s;*/
+
 }
 
 .nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 45px;
+    text-decoration-line: none;
+
+
+    color: #000000;
 }
 
 .nav a:hover {
+    color: #58ACFF;
+}
+
+.nav a:active {
+    color: #3D6B99;
 }
 
 .nav a.active {
+    text-decoration-line: underline;
+
+    color: #0059B2;
 }
+
 .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 24px;
+    height: 24px;
+
+
+    position: relative;
+    right: -280px;
+    top: 14px;
+
+
+
+
 }
 
 .close img {
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 0.3}
+}
+
+@keyframes opens {
+0% {left: -100%}
+    100% {left: 0}
+}
+
+@keyframes close {
+    0% {left: 0}
+    100% {left: -100%}
 }
