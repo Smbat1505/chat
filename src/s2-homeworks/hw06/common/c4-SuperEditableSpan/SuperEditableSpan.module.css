@@ -1,10 +1,26 @@
 .spanBlock {
+    display: inline-block ;
+
+    height: 31px;
+    padding-top: 10px ;
+    cursor: pointer;
+    color: #77aaff;
+
 }
 
 .span {
+    /*display: inline-block;*/
+
+    /*height: 31px;*/
+    /*padding-top: 10px;*/
+    /*cursor: pointer;*/
+    /*color: #77aaff;*/
 }
 
 .input {
+
+    padding-top: 10px;
+
 }
 
 .pen {

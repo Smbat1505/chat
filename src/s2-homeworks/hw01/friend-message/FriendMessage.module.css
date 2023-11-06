@@ -46,7 +46,7 @@
 .friendName {
     text-align: start;
     padding-left: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -58,7 +58,7 @@
     white-space: pre-wrap;
     text-align: end;
     padding-left: 20px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 17px;
     padding-bottom: 8px;
@@ -68,11 +68,11 @@
 
 .friendTime {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     grid-area: t;
     padding: 10px 25px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;

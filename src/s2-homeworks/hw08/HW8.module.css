@@ -1,19 +1,30 @@
 .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    width: 500px;
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
 }
 
 .container {
 }
 
-.thead {
+.thead > tr{
+    display: flex;
+    justify-content: space-between;
+    background:  #E5E5E5;
+;
+    padding: 5px;
 }
 
 .nameCol {

@@ -47,7 +47,7 @@
 .name {
     text-align: end;
     padding-right: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 18px;
     /* identical to box height */
@@ -59,7 +59,7 @@
 .messageText {
     white-space: pre-wrap;
     text-align: start;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 17px;
     padding-bottom: 8px;
@@ -75,11 +75,11 @@
 
 .time {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     grid-area: t;
     padding: 10px 25px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;

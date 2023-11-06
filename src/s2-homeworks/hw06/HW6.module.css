@@ -1,5 +1,13 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
 }
 
 .editableSpanContainer {
+    /*display: inline-block;*/
+
+    /*height: 31px;*/
+    /*padding-top: 10px;*/
+    /*cursor: pointer;*/
+    /*color: #77aaff;*/
 }
