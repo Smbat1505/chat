@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './Message.module.css'
 import {MessageType} from "../HW1";
+import s2 from "../../../s1-main/App.module.css";
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
@@ -19,6 +20,9 @@ const Message: React.FC<MessagePropsType> = (props) => {
                     src={props.message.user.avatar}
                     //
                 />
+
+                {/*<div className={s.corner}></div>*/}
+
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {props.message.user.name}
